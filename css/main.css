@@ -1,0 +1,355 @@
+body {
+	background: #ffab00 url(/img/stoleto_bg_highlight.png) 50% 0 no-repeat;
+}
+
+/* Icons */
+
+.icon {
+	position: relative;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	background: url(/img/icons.png) 0 0 no-repeat;
+}
+
+.icon-audio {
+	left: -35px;
+	margin-top: -13px;
+	width: 27px;
+	height: 27px;
+}
+
+.icon-price {
+	left: -29px;
+	margin-top: -10px;
+	width: 21px;
+	height: 21px;
+	background-position: -29px 0;
+}
+
+.icon-form {
+	left: -28px;
+	margin-top: -9px;
+	width: 20px;
+	height: 20px;
+	background-position: -52px 0;
+}
+
+.icon-contacts {
+	left: -32px;
+	margin-top: -8px;
+	width: 24px;
+	height: 16px;
+	background-position: -74px 0;
+}
+
+/* Head */
+
+header {
+	margin: 40px 0 60px 0;
+	font-size: 1.25em;
+	font-family: 'PT Sans', sans-serif;
+}
+
+/* Container */
+
+.with-transitions {
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.container,
+.container-body {
+	position: relative;
+}
+
+.container-body {
+	/* height: 0; */
+}
+
+footer {
+	width: 940px;
+	border: 0;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'PT Sans Narrow', sans-serif;
+	zoom: 1;
+}
+
+footer p {
+	font-size: 14px;
+	margin: 20px;
+}
+
+footer:before,
+footer:after {
+	display: table;
+	content: "";
+	zoom: 1;
+}
+
+footer:after {
+	clear:both;
+}
+
+/* Logo */
+
+.logo {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -102px;
+	margin-top: -25px;
+}
+
+/* Menu */
+
+.menu-item {
+	text-align: center;
+}
+
+.menu-item .icon {
+	position: absolute;
+	top: 50%;
+}
+
+.menu-item a {
+	position: relative;
+}
+
+/* Steps */
+
+.page-step {
+	position: relative;
+	display: none;
+}
+
+.page-step-active {
+	display: block;
+}
+
+.page-step-prev {
+	display: block;
+	right: 100%;
+}
+
+.page-step-next {
+	display: block;
+	left: 100%;
+}
+
+.step-caption {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #fff;
+	font-weight: normal;
+	font-size: 48px;
+	text-align: center;
+}
+
+.step-description {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #fff;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 1em;
+	line-height: 1.2;
+}
+
+/* SoundCloud */
+
+.soundcloud-wrapper {
+	position: realtive;
+}
+
+.soundcloud-row {
+	margin-bottom: 20px;
+}
+
+.soundcloud-item {
+	position: relative;
+}
+
+.soundcloud-item-inner {
+	background: #fff;
+	padding: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	
+}
+
+.soundcloud-item object {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.soundcloud-track-title {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 0;
+}
+
+.soundcloud-track-description {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	text-transform: capitalize;
+}
+
+/* Paging */
+
+.paging-wrapper {
+	position: relative;
+	text-align: center;
+	margin-top: 3.5em;
+}
+
+.paging {
+	position: relative;
+	display: inline-block;
+}
+
+.page-prev,
+.page-next {
+	position: absolute;
+	top: -13px;
+	right: 100%;
+	width: 79px;
+	height: 58px;
+	cursor: pointer;
+	margin-right: 15px;
+	background: url(/img/icons.png) 0 -68px no-repeat;
+}
+
+.page-next {
+	left: 100%;
+	margin-left: 15px;
+	background: url(/img/icons.png) -81px -68px no-repeat;
+}
+
+.page-list-item {
+	display: inline-block;
+	width: 28px;
+	height: 37px;
+	margin: 0 -3px 0 -2px;
+	cursor: pointer;
+	background: url(/img/icons.png) 0 -29px no-repeat;
+}
+
+.page-list-selected {
+	position: relative;
+	display: inline-block;
+	top: -6px;
+	margin: 0 -3px;
+	width: 29px;
+	height: 37px;
+	cursor: pointer;
+	background: url(/img/icons.png) -29px -29px no-repeat;
+}
+
+/* Price step */
+
+.price-cards {
+	position: relative;
+	margin-bottom: 2em;
+}
+
+.price-card {
+	position: relative;
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.price-card-inner {
+	border: 1px solid #666;
+}
+
+.borderimage .price-card-inner {
+	border-width: 5px 5px 5px 5px;
+	-moz-border-image: url(/img/card_decor.png) 5 5 5 5 round repeat;
+	-webkit-border-image: url(/img/card_decor.png) 5 5 5 5 round repeat;
+	-o-border-image: url(/img/card_decor.png) 5 5 5 5 round repeat;
+	border-image: url(/img/card_decor.png) 5 5 5 5 round repeat;
+}
+
+.price-card-content {
+	position: relative;
+	background:#fff;
+	text-align: center;
+	color: #666;
+	height: 90px;
+	overflow: hidden;
+}
+
+.price-title {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.price-card-withdesc .price-title {
+	margin-top: 5px;
+}
+
+.price-amount {
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold",
+		"Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue",
+		'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial",
+		sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	margin-top: 6px;
+	line-height: 1;
+}
+
+.price-card-withdesc .price-amount {
+	margin-top: 0;
+}
+
+.price-amount span {
+	font-size: 18px;
+}
+
+.price-desc {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	color: #999;
+	line-height: 1.2;
+}
+
+/* Contacts Step */
+
+.contacts {
+	text-align: center;
+	color: #fff;
+	margin-top: 3em;
+}
+
+.contact-item {
+	margin-bottom: 3em;
+}
+
+.contact-title {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	margin-bottom: 0.5em;
+}
+
+.contact-value {
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold",
+		"Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue",
+		'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial",
+		sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1;
+}
