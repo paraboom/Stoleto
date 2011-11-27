@@ -12,9 +12,9 @@
        More info: h5bp.com/b/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title></title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Yo!</title>
+  <meta name="description" content="Stoleto Production">
+  <meta name="author" content="Ivan Shornicov">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -22,6 +22,9 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Narrow:400,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -32,14 +35,244 @@
 </head>
 
 <body>
-  <header>
-
+  <header class="container">
+  	<div class="logo">
+  		<a href="/"><img src="img/logo.png" alt="Stoleto" width="205" height="49" /></a>
+  	</div>
+	<div class="row">
+		<div class="span3 menu-item">
+			<a href="#page=audio"><i class="icon icon-audio"></i>Аудиоролики</a>
+		</div>
+		<div class="span3 menu-item">
+			<a href="#page=price"><i class="icon icon-price"></i>Стоимость и сроки</a>
+		</div>
+		<!-- div class="span3 offset4 menu-item">
+			<a href="#page=form"><i class="icon icon-form"></i>Техзадание</a>
+		</div -->
+		<div class="span3 menu-item offset7">
+			<a href="#page=contacts"><i class="icon icon-contacts"></i>Сотрудничество</a>
+		</div>
+	</div>
   </header>
-  <div role="main">
-
+  <div role="main" class="container container-body">
+	<div class="page-step" data-step-name="audio">
+		<h1 class="step-caption">Примеры наших работ</h1>
+		<p class="step-description">Мы создаем все виды аудиопродукции, включая рекламные ролики, оформление эфиров, креативные концепции и прочее.</p>
+		
+		<div class="soundcloud-wrapper">
+			<div class="page" data-page="1">
+				<div class="row soundcloud-row">
+					<div class="soundcloud-item span8">
+						<div class="soundcloud-item-inner">
+							<object height="81" width="100%" id="yourPlayerId1" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+								<param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F01-turkish-airlines&enable_api=true&show_comments=false&object_id=yourPlayerId1"></param>
+								<param name="allowscriptaccess" value="always"></param>
+								<embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F01-turkish-airlines&enable_api=true&show_comments=false&object_id=yourPlayerId1" type="application/x-shockwave-flash" width="100%" name="yourPlayerId1"></embed>
+							</object>
+							<p class="soundcloud-track-title"></p>
+							<p class="soundcloud-track-description"></p>
+						</div>
+					</div>
+					<div class="soundcloud-item span8">
+						<div class="soundcloud-item-inner">
+							<object height="81" width="100%" id="yourPlayerId2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+								<param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F02-avtopole&enable_api=true&show_comments=false&object_id=yourPlayerId2"></param>
+								<param name="allowscriptaccess" value="always"></param>
+								<embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F02-avtopole&enable_api=true&show_comments=false&object_id=yourPlayerId2" type="application/x-shockwave-flash" width="100%" name="yourPlayerId2"></embed>
+							</object>
+							<p class="soundcloud-track-title"></p>
+							<p class="soundcloud-track-description"></p>
+						</div>
+					</div>
+				</div>
+				<div class="row soundcloud-row">
+					<div class="soundcloud-item span8">
+						<div class="soundcloud-item-inner">
+							<object height="81" width="100%" id="yourPlayerId3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+								<param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F03-lukoil&enable_api=true&show_comments=false&object_id=yourPlayerId3"></param>
+								<param name="allowscriptaccess" value="always"></param>
+								<embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F03-lukoil&enable_api=true&show_comments=false&object_id=yourPlayerId3" type="application/x-shockwave-flash" width="100%" name="yourPlayerId3"></embed>
+							</object>
+							<p class="soundcloud-track-title"></p>
+							<p class="soundcloud-track-description"></p>
+						</div>
+					</div>
+					<div class="soundcloud-item span8">
+						<div class="soundcloud-item-inner">
+							<object height="81" width="100%" id="yourPlayerId4" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+								<param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F04-lerua-merlen&enable_api=true&show_comments=false&object_id=yourPlayerId4"></param>
+								<param name="allowscriptaccess" value="always"></param>
+								<embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F04-lerua-merlen&enable_api=true&show_comments=false&object_id=yourPlayerId4" type="application/x-shockwave-flash" width="100%" name="yourPlayerId4"></embed>
+							</object>
+							<p class="soundcloud-track-title"></p>
+							<p class="soundcloud-track-description"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="page hidden" data-page="2">
+				<div class="row soundcloud-row">
+					<div class="soundcloud-item span8">
+						<div class="soundcloud-item-inner">
+							<object height="81" width="100%" id="yourPlayerId5" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+								<param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F05-aksioma&enable_api=true&show_comments=false&object_id=yourPlayerId5"></param>
+								<param name="allowscriptaccess" value="always"></param>
+								<embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F05-aksioma&enable_api=true&show_comments=false&object_id=yourPlayerId5" type="application/x-shockwave-flash" width="100%" name="yourPlayerId5"></embed>
+							</object>
+							<p class="soundcloud-track-title"></p>
+							<p class="soundcloud-track-description"></p>
+						</div>
+					</div>
+					<div class="soundcloud-item span8">
+						<div class="soundcloud-item-inner">
+							<object height="81" width="100%" id="yourPlayerId6" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+								<param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F06-lenspezstroy&enable_api=true&show_comments=false&object_id=yourPlayerId6"></param>
+								<param name="allowscriptaccess" value="always"></param>
+								<embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F06-lenspezstroy&enable_api=true&show_comments=false&object_id=yourPlayerId6" type="application/x-shockwave-flash" width="100%" name="yourPlayerId6"></embed>
+							</object>
+							<p class="soundcloud-track-title"></p>
+							<p class="soundcloud-track-description"></p>
+						</div>
+					</div>
+				</div>
+				<div class="row soundcloud-row">
+					<div class="soundcloud-item span8">
+						<div class="soundcloud-item-inner">
+							<object height="81" width="100%" id="yourPlayerId7" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+								<param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F07-pirogovy-dvorik&enable_api=true&show_comments=false&object_id=yourPlayerId7"></param>
+								<param name="allowscriptaccess" value="always"></param>
+								<embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F07-pirogovy-dvorik&enable_api=true&show_comments=false&object_id=yourPlayerId7" type="application/x-shockwave-flash" width="100%" name="yourPlayerId7"></embed>
+							</object>
+							<p class="soundcloud-track-title"></p>
+							<p class="soundcloud-track-description"></p>
+						</div>
+					</div>
+					<div class="soundcloud-item span8">
+						<div class="soundcloud-item-inner">
+							<object height="81" width="100%" id="yourPlayerId8" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+								<param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F08-pirogovy-dvorik&enable_api=true&show_comments=false&object_id=yourPlayerId8"></param>
+								<param name="allowscriptaccess" value="always"></param>
+								<embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstoleto%2F08-pirogovy-dvorik&enable_api=true&show_comments=false&object_id=yourPlayerId7" type="application/x-shockwave-flash" width="100%" name="yourPlayerId8"></embed>
+							</object>
+							<p class="soundcloud-track-title"></p>
+							<p class="soundcloud-track-description"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="paging-wrapper">
+			<div class="paging">
+				<div class="page-next"></div>
+				<div class="page-prev"></div>
+				<ul class="page-list unstyled">
+					<li class="page-list-item page-list-selected" data-page="1"></li>
+					<li class="page-list-item" data-page="2"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="page-step" data-step-name="price">
+		<h1 class="step-caption">Стоимость производства аудиоролика в рублях</h1>
+		<p class="step-description">Хронометраж: 15-30 секунд, включая звук, текст и голоса актеров.</p>
+		<div class="price-cards clearfix">
+			<div class="price-card">
+				<div class="price-card-inner">
+					<div class="price-card-content">
+						<div class="price-title">Информационный</div>
+						<div class="price-amount">4,000</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-card">
+				<div class="price-card-inner">
+					<div class="price-card-content">
+						<div class="price-title">Игровой</div>
+						<div class="price-amount">6,000</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-card">
+				<div class="price-card-inner">
+					<div class="price-card-content">
+						<div class="price-title">Имиджевый</div>
+						<div class="price-amount">8,000</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-card">
+				<div class="price-card-inner">
+					<div class="price-card-content">
+						<div class="price-title">Музыкальный</div>
+						<div class="price-amount"><span>от </span>15,000</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-card">
+				<div class="price-card-inner">
+					<div class="price-card-content">
+						<div class="price-title">Корпоративное поздравление</div>
+						<div class="price-amount"><span>от </span>15,000</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-card">
+				<div class="price-card-inner">
+					<div class="price-card-content">
+						<div class="price-title">Креатив аудиорекламы</div>
+						<div class="price-amount"><span>от </span>2,000</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-card price-card-withdesc">
+				<div class="price-card-inner">
+					<div class="price-card-content">
+						<div class="price-title">Оформление эфира станции</div>
+						<div class="price-amount"><span>от </span>3,000</div>
+						<div class="price-desc">за один элемент промо<br/>(кроме лайнеров, лайнеры &mdash; дешевле)</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-card">
+				<div class="price-card-inner">
+					<div class="price-card-content">
+						<div class="price-title">Автоответчики</div>
+						<div class="price-amount"><span>от </span>3,500</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p class="step-description">Одноразовое пересведение ролика (другая музыка, смещение акцентов и т.п.) — бесплатно.<br/>Если вы не знаете, чего хотите — мы, конечно, вам поможем. За отдельные деньги.</p>
+	</div>
+	<!-- div class="page-step" data-step-name="form">
+		<p>Slide №3</p>
+	</div -->
+	<div class="page-step" data-step-name="contacts">
+		<h1 class="step-caption">Все вопросы обсуждаемы</h1>
+		<p class="step-description">Просто позвоните нам по телефону или скайпу, или напишите электронное письмо.</p>
+		<div class="contacts row">
+			<div class="contact-item span8">
+				<div class="contact-title">Телефон</div>
+				<div class="contact-value">+7&nbsp;(911)&nbsp;292-64-61</div>
+			</div>
+			<div class="contact-item span8">
+				<div class="contact-title">Электронная почта</div>
+				<div class="contact-value">stoleto@gmail.com</div>
+			</div>
+			<div class="contact-item span8">
+				<div class="contact-title">ICQ</div>
+				<div class="contact-value">229-860-426</div>
+			</div>
+			<div class="contact-item span8">
+				<div class="contact-title">Skype</div>
+				<div class="contact-value">stoleto</div>
+			</div>
+		</div>
+	</div>
   </div>
   <footer>
-
+	<p class="copyright">&copy;&nbsp;Stoleto Production 2006-2011</p>
   </footer>
 
 
@@ -49,6 +282,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.0.min.js"><\/script>')</script>
 
+  <script type="text/javascript" src="js/mylibs/soundcloud.player.api.js"></script>
 
   <!-- scripts concatenated and minified via build script -->
   <script defer src="js/plugins.js"></script>
